@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="background-color:#b3ffcc;padding: 20px">
+  <h2 style="text-align: center">DIGICOM TECH.</h2>
+  <p style="text-align: center"><EM>Quality makes us different</EM>.</p>
+  <p style="text-align: center">This  is our first product that comes in our mobile cart.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <!--<a href="/w3images/lights.jpg" target="_blank">-->
+          <img  id="img1"src="https://i5.walmartimages.com/asr/18cf8021-dd8d-4b5f-b395-a52a89543cd6_1.14cac158b8f4f6b97d3b75b7f4a75c71.jpeg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p style="text-align: center;">Samsung galaxy s4.</p>
+            <button id="add" style="background:red; color:white;padding:.5em;border-radius: 20px">add to cart</button>
+          </div>
+        <!--</a>-->
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/nature.jpg" target="_blank">
+          <img src="https://i5.walmartimages.com/asr/18cf8021-dd8d-4b5f-b395-a52a89543cd6_1.14cac158b8f4f6b97d3b75b7f4a75c71.jpeg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p style="text-align: center;">Samsung galaxy s4.</p>
+            <button id="add2" style="background:red; color:white;padding:.5em;border-radius: 20px">add to cart</button>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="https://i5.walmartimages.com/asr/18cf8021-dd8d-4b5f-b395-a52a89543cd6_1.14cac158b8f4f6b97d3b75b7f4a75c71.jpeg" alt="Fjords" style="width:100%">
+          <div class="caption">
+           <p style="text-align: center;">Samsung galaxy s4.</p>
+           <button id="add3" style="background:red; color:white;padding:.5em;border-radius: 20px">add to cart</button>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function(){
+      $("#add").click(function(){
+          //$("#img1").fadeOut("slow");
+          alert("Congratulations , this product added to the cart");
+      });
+      $("#add2").click(function(){
+        alert("Congratulations , this product added to the cart");
+      });
+      $("#add3").click(function(){
+        alert("Congratulations , this product added to the cart");
+      });
+  });
+</script>
+</body>
+</html>
+
